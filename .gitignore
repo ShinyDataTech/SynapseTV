@@ -1,8 +1,10 @@
 # User-specified exclusions
 hackathon-submission/
 implementation_plan.md
+walkthrough.md
 amazonappdev2026*.pdf
 *.pdf
+.gemini/
 
 # Node & Frontend
 node_modules/
