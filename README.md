@@ -80,8 +80,8 @@ graph TD
 
 ### 1. Clone Repository & Setup Environment
 ```bash
-git clone https://github.com/your-username/synapse-tv.git
-cd synapse-tv
+git clone https://github.com/ShinyDataTech/SynapseTV.git
+cd SynapseTV
 ```
 
 ### 2. Launch AI Orchestration Gateway (Backend)
