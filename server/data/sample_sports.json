@@ -1,0 +1,78 @@
+{
+  "match_id": "match-epl-derby-2026",
+  "competition": "Premier League Super Match",
+  "fixture": "Arsenal FC vs Manchester City",
+  "score": "2 - 1",
+  "match_clock": "74:18",
+  "venue": "Emirates Stadium, London",
+  "active_telemetry": {
+    "possession_pct": {"home": 54.2, "away": 45.8},
+    "expected_goals_xG": {"home": 1.94, "away": 1.42},
+    "passing_accuracy": {"home": "88.6%", "away": "86.1%"},
+    "high_press_turnovers": {"home": 8, "away": 4}
+  },
+  "highlight_events": [
+    {
+      "timecode_seconds": 15,
+      "event_type": "sprint_burst",
+      "player_name": "Bukayo Saka",
+      "number": 7,
+      "team": "Arsenal FC",
+      "metric_label": "Top Sprint Speed",
+      "metric_value": "34.8 km/h",
+      "tactical_context": "Breakaway down right wing attacking the half-space transition.",
+      "live_trivia": "Fastest clocked sprint on the pitch today, beating Walker's 33.9 km/h."
+    },
+    {
+      "timecode_seconds": 40,
+      "event_type": "tactical_heatmap",
+      "player_name": "Martin Ødegaard",
+      "number": 8,
+      "team": "Arsenal FC",
+      "metric_label": "Key Passes / Progressive Carries",
+      "metric_value": "6 Key Passes (92% completion in final third)",
+      "tactical_context": "Dominating zone 14 between City's double pivot.",
+      "live_trivia": "Ødegaard has covered 9.8 km, the highest distance of any midfielder on the pitch."
+    },
+    {
+      "timecode_seconds": 70,
+      "event_type": "var_rule_breakdown",
+      "player_name": "Erling Haaland",
+      "number": 9,
+      "team": "Manchester City",
+      "metric_label": "VAR Offside Check Review",
+      "metric_value": "Overruled: Margin 3.2cm Onside",
+      "tactical_context": "Semi-Automated Offside Technology (SAOT) 3D mesh review.",
+      "live_trivia": "Rule Explanation: Under IFAB 2026 guidelines, optical sensor tracking aligns skeletal extremities at the exact frame of ball release."
+    }
+  ],
+  "player_roster": [
+    {
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "role": "Right Winger",
+      "rating": 8.9,
+      "goals": 1,
+      "assists": 1,
+      "sprint_speed": "34.8 km/h"
+    },
+    {
+      "name": "Martin Ødegaard",
+      "team": "Arsenal",
+      "role": "Attacking Midfielder",
+      "rating": 8.7,
+      "goals": 1,
+      "assists": 0,
+      "distance_covered": "9.8 km"
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "role": "Striker",
+      "rating": 7.8,
+      "goals": 1,
+      "assists": 0,
+      "shots_on_target": 4
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "media_id": "movie-interstellar-odyssey-2026",
+  "title": "Astraea: Beyond the Event Horizon",
+  "genre": "Sci-Fi / Thriller",
+  "duration_seconds": 7200,
+  "cast": [
+    {
+      "character": "Dr. Elena Vance",
+      "actor": "Talia Ramos",
+      "role": "Chief Astrophysicist & Expedition Commander",
+      "bio": "Former MIT gravitational theorist recruited to decrypt anomaly pulses near Titan.",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "character": "Commander Marcus Reed",
+      "actor": "David Sterling",
+      "role": "Veteran Pilot & Military Liaison",
+      "bio": "Decorated sub-orbital pilot dealing with the loss of the Helios IV crew.",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "character": "A.R.I.A. (Synthetic)",
+      "actor": "Voiced by Sarah Chen",
+      "role": "Quantum Core Navigation Intelligence",
+      "bio": "Sentient navigational matrix trained on 140 petabytes of deep space radio signatures.",
+      "avatar_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "timecode_events": [
+    {
+      "timecode_seconds": 12,
+      "event_type": "scene_catchup",
+      "title": "Elena decrypts the Harmonic Beacon",
+      "summary": "Dr. Elena Vance isolates a 4.2Hz resonant wave that matches pre-collapse quantum transmitters.",
+      "characters_present": ["Dr. Elena Vance"],
+      "significance": "Crucial Plot Turning Point: Elena discovers the signal was transmitted from inside the anomaly, not outside.",
+      "trivia": "The sound frequency used in this sequence was synthesized from actual Voyager 1 interstellar plasma wave recordings.",
+      "suggested_questions": [
+        "Why does Elena recognize the frequency?",
+        "What happened to the previous mission Helios IV?",
+        "Who built the Harmonic Beacon?"
+      ]
+    },
+    {
+      "timecode_seconds": 35,
+      "event_type": "actor_spotlight",
+      "title": "Commander Marcus Reed Enters Bridge",
+      "summary": "Marcus confronts Elena regarding fuel reserves before orbital insertion.",
+      "characters_present": ["Commander Marcus Reed", "Dr. Elena Vance"],
+      "significance": "Character Tension: Marcus fears repeating the Helios IV disaster where his copilot was stranded.",
+      "trivia": "Actor David Sterling trained for 3 weeks in a neutral buoyancy centrifuge for zero-G posture realism.",
+      "suggested_questions": [
+        "What is Marcus's flight history?",
+        "What is the current ship status?",
+        "Explain the gravitational slingshot manoeuvre."
+      ]
+    },
+    {
+      "timecode_seconds": 65,
+      "event_type": "deep_lore",
+      "title": "Quantum Singularity Proximity Alert",
+      "summary": "A.R.I.A. detects relativistic time dilation accelerating at 1.8x baseline Earth standard.",
+      "characters_present": ["A.R.I.A. (Synthetic)", "Dr. Elena Vance", "Commander Marcus Reed"],
+      "significance": "Time Dilation Threat: Every minute spent in orbit equals 3 months in Earth time.",
+      "trivia": "The visual effects team consulted with Caltech gravitational physicists to render the gravitational lensing distortion.",
+      "suggested_questions": [
+        "How much time is passing on Earth?",
+        "Can the engine handle the tidal forces?",
+        "What is A.R.I.A.'s fail-safe protocol?"
+      ]
+    }
+  ]
+}

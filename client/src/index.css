@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tv-safe-top: 48px;
+  --tv-safe-bottom: 48px;
+  --tv-safe-left: 64px;
+  --tv-safe-right: 64px;
+  --amazon-amber: #FF9900;
+  --amazon-cyan: #00A8E1;
+  --firetv-focus: #00d2ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #06080F;
+  color: #F3F4F6;
+  overflow: hidden;
+  user-select: none;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* TV Safe Area */
+.tv-safe-area {
+  padding-top: var(--tv-safe-top);
+  padding-bottom: var(--tv-safe-bottom);
+  padding-left: var(--tv-safe-left);
+  padding-right: var(--tv-safe-right);
+}
+
+/* Glassmorphism Styles */
+.glass-panel {
+  background: rgba(13, 17, 28, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Fire TV Focus States (D-Pad Navigation) */
+.tv-focusable {
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  outline: none;
+  cursor: pointer;
+}
+
+.tv-focused {
+  transform: scale(1.06);
+  box-shadow: 0 0 0 3px var(--firetv-focus), 0 0 32px rgba(0, 210, 255, 0.45);
+  border-color: var(--firetv-focus) !important;
+  z-index: 40;
+}
+
+.tv-focused-amber {
+  transform: scale(1.06);
+  box-shadow: 0 0 0 3px var(--amazon-amber), 0 0 32px rgba(255, 153, 0, 0.45);
+  border-color: var(--amazon-amber) !important;
+  z-index: 40;
+}
+
+/* Glow & Animation Effects */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+@keyframes voice-wave {
+  0% { height: 10px; }
+  50% { height: 38px; }
+  100% { height: 10px; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+.voice-bar {
+  animation: voice-wave 1.2s infinite ease-in-out;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}

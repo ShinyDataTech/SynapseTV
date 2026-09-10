@@ -1,0 +1,32 @@
+# User-specified exclusions
+hackathon-submission/
+implementation_plan.md
+amazonappdev2026*.pdf
+*.pdf
+
+# Node & Frontend
+node_modules/
+dist/
+client/dist/
+client/node_modules/
+.vite/
+
+# Python & Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
